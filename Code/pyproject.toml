@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "industry-lab-project"
+version = "0.1.0"
+description = ""
+authors = ["Sanja Stanisic"]
+readme = "README.md"
+packages = [{include = "industry_lab_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.23.5"
+pandas = "^1.5.2"
+tqdm = "^4.64.1"
+scikit-learn = "^1.1.3"
+optuna = "^2.10.1"
+scikit-optimize = "^0.9.0"
+matplotlib = "^3.6.2"
+seaborn = "^0.11.0"
+plotly = "^5.11.0"
+statsmodels = "^0.13.5"
+numba = "^0.56.4"
+pmdarima = "^2.0.2"
+prophet = "^1.1.1"
+sktime = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
